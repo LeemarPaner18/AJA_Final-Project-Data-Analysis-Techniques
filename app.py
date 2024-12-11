@@ -56,7 +56,7 @@ if options == 'Overview':
     st.write("""
     This application dives deeper into the Titanic dataset, focusing on family dynamics, fare analysis, and how these factors influenced passenger groups.
     """)
-    st.image(r"C:\Users\paner\Downloads\AJA_Final-Project-Data-Analysis-Techniques\Titanic.jpg", caption="RMS Titanic", use_column_width=True)
+    st.image("Titanic.jpg", caption="RMS Titanic", use_column_width=True)
     st.markdown('<div class="subheader">Dataset Structure</div>', unsafe_allow_html=True)
     st.dataframe(data.head())
 
